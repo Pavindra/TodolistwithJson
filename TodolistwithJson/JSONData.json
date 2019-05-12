@@ -1,0 +1,46 @@
+
+    
+    [
+        {
+            "task":"Clean House",
+            "category":"Home",
+            "isImportant":true
+        },
+        {
+            "task":"Send an Email",
+            "category":"Office",
+            "isImportant":true
+        },
+        {
+            "task":"Assignment 1",
+            "category":"Uni",
+            "isImportant":false
+        },
+        {
+            "task":"Mother's Birthday",
+            "category":"Home",
+            "isImportant":true
+        },
+        {
+            "task":"Exam",
+            "category":"Uni",
+            "isImportant":false
+        },
+        {
+            "task":"Grocery Shopping",
+            "category":"Home",
+            "isImportant":true
+        },
+        {
+            "task":"Call Boss",
+            "category":"Office",
+            "isImportant":true
+        },
+        {
+            "task":"Progress Meeting",
+            "category":"Uni",
+            "isImportant":true
+        }
+        
+    ]
+

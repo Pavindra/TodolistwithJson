@@ -13,6 +13,9 @@
 		49D61AA3227868800076A2E7 /* TodolistwithJson.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49D61AA1227868800076A2E7 /* TodolistwithJson.xcdatamodeld */; };
 		49D61AA5227868800076A2E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D61AA4227868800076A2E7 /* Assets.xcassets */; };
 		49D61AA8227868800076A2E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D61AA6227868800076A2E7 /* LaunchScreen.storyboard */; };
+		49D61AB022786A8C0076A2E7 /* JSONData.json in Resources */ = {isa = PBXBuildFile; fileRef = 49D61AAF22786A8C0076A2E7 /* JSONData.json */; };
+		49D61AB2227C6B570076A2E7 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D61AB1227C6B570076A2E7 /* Tasks.swift */; };
+		49D61ADD227EE85A0076A2E7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D61ADC227EE85A0076A2E7 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		49D61AA4227868800076A2E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49D61AA7227868800076A2E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49D61AA9227868800076A2E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D61AAF22786A8C0076A2E7 /* JSONData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = JSONData.json; sourceTree = "<group>"; };
+		49D61AB1227C6B570076A2E7 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		49D61ADC227EE85A0076A2E7 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				49D61A9A227868800076A2E7 /* AppDelegate.swift */,
 				49D61A9C227868800076A2E7 /* ViewController.swift */,
 				49D61A9E227868800076A2E7 /* Main.storyboard */,
+				49D61ADC227EE85A0076A2E7 /* TableViewCell.swift */,
 				49D61AA4227868800076A2E7 /* Assets.xcassets */,
 				49D61AA6227868800076A2E7 /* LaunchScreen.storyboard */,
 				49D61AA9227868800076A2E7 /* Info.plist */,
 				49D61AA1227868800076A2E7 /* TodolistwithJson.xcdatamodeld */,
+				49D61AAF22786A8C0076A2E7 /* JSONData.json */,
+				49D61AB1227C6B570076A2E7 /* Tasks.swift */,
 			);
 			path = TodolistwithJson;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49D61AA8227868800076A2E7 /* LaunchScreen.storyboard in Resources */,
+				49D61AB022786A8C0076A2E7 /* JSONData.json in Resources */,
 				49D61AA5227868800076A2E7 /* Assets.xcassets in Resources */,
 				49D61AA0227868800076A2E7 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D61ADD227EE85A0076A2E7 /* TableViewCell.swift in Sources */,
+				49D61AB2227C6B570076A2E7 /* Tasks.swift in Sources */,
 				49D61AA3227868800076A2E7 /* TodolistwithJson.xcdatamodeld in Sources */,
 				49D61A9D227868800076A2E7 /* ViewController.swift in Sources */,
 				49D61A9B227868800076A2E7 /* AppDelegate.swift in Sources */,
@@ -287,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TodolistwithJson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TodolistwithJson/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
